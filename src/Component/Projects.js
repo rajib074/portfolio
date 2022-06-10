@@ -27,7 +27,7 @@ const Projects = () => {
                   alt="praject"
                 />
               </div>
-              <Link className="p-5  m-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500" to="/project">View Ditals</Link>            </div>
+              <Link className="p-5  m-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500" to="/independent">View Ditals</Link>            </div>
             <div>
               
             </div>
