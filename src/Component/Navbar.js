@@ -9,25 +9,24 @@ const Navbar = () => {
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
-            <nav>
-        <Link to="/">Home</Link>
-      </nav>
+              <nav>
+                <Link to="/">Home</Link>
+              </nav>
             </li>
             <li>
-              
               <a href="https://drive.google.com/file/d/1QJHEcEibx5WgWeNbFIK0DJlqtyCIPbDG/view?usp=sharing">
                 Resume
               </a>
             </li>
             <li>
-            <nav>
-        <Link to="/project">Projects</Link>
-      </nav>
+              <nav>
+                <Link to="/project">Projects</Link>
+              </nav>
             </li>
             <li>
-            <nav>
-        <Link to="/about">About</Link>
-      </nav>
+              <nav>
+                <Link to="/about">About</Link>
+              </nav>
             </li>
           </ul>
         </div>
@@ -54,19 +53,25 @@ const Navbar = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box "
             >
               <li>
-                <a>Home</a>
-              </li>
-              <li>
-                <a href="https://drive.google.com/file/d/1QJHEcEibx5WgWeNbFIK0DJlqtyCIPbDG/view?usp=sharing">
-                  Resume
-                </a>
-              </li>
-              <li>
-                <a>Projects</a>
-              </li>
-              <li>
-                <a>About</a>
-              </li>
+              <nav>
+                <Link to="/">Home</Link>
+              </nav>
+            </li>
+            <li>
+              <a href="https://drive.google.com/file/d/1QJHEcEibx5WgWeNbFIK0DJlqtyCIPbDG/view?usp=sharing">
+                Resume
+              </a>
+            </li>
+            <li>
+              <nav>
+                <Link to="/project">Projects</Link>
+              </nav>
+            </li>
+            <li>
+              <nav>
+                <Link to="/about">About</Link>
+              </nav>
+            </li>
             </ul>
           </div>
         </div>

@@ -2,8 +2,8 @@ import React from "react";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
 import Header from "./Header";
-import Independent from "./Independent";
 import Projects from "./Projects";
+import Skils from "./Skils";
 import Testimonials from "./Testimonials";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       
       <Header></Header>
-      <Independent></Independent>
+      <Skils></Skils>
       <Projects></Projects>
       <Testimonials></Testimonials>
       <ContactUs></ContactUs>

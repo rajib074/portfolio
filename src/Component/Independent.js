@@ -7,29 +7,24 @@ const Independent = () => {
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 text-center lg:w-1/3">
-                <h1 className="m-3 text-3xl">Home Page</h1>
-              <div>
-                <img
-                  src="https://i.ibb.co/RpgnQ8Z/vitic-1.png"
-                  alt="car!"
-                />
+              <h1 className="m-3 text-3xl">Home Page</h1>
+              <div className="h-[550px] overflow-hidden">
+                <img src="https://i.ibb.co/RpgnQ8Z/vitic-1.png" alt="car!" />
               </div>
             </div>
             <div class="p-4 text-center lg:w-1/3">
-            <h1 className="m-3 text-3xl">LogIn Page</h1>
+              <h1 className="m-3 text-3xl">LogIn Page</h1>
 
-              <div>
-                <img
-                  src="https://i.ibb.co/Lg3vKXv/vitic-4.png"
-                  alt="car!"
-                />
+              <div className="h-[550px] overflow-hidden">
+                <img src="https://i.ibb.co/Lg3vKXv/vitic-4.png" alt="car!" />
               </div>
             </div>
             <div class="p-4 text-center lg:w-1/3">
-            <h1 className="m-3 text-3xl">Dashbord</h1>
+              <h1 className="m-3 text-3xl">Dashbord</h1>
 
-              <div>
+              <div className="h-[550px] overflow-hidden">
                 <img
+                  className=""
                   src="https://i.ibb.co/xCcmCQH/vitic-2.png"
                   alt="car!"
                 />
