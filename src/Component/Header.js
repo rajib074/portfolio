@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
       <div class="hero min-h-screen">
         <div class="hero-content flex-col m-auto lg:flex-row">
           <img
@@ -19,7 +20,7 @@ const Header = () => {
               applications through carefully crafted code and user-centric
               design.
             </p>
-            <button class="btn btn-primary"><span><i class="fa fa-user"></i>more about me</span></button>
+            <Link class="btn btn-primary" to="/about">More about me</Link>
           </div>
         </div>
       </div>

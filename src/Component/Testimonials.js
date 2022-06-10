@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonials = () => {
     return (
-        <div>
+        <div className='bg-gradient-to-r from-indigo-500 to-pink-500'>
             <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials</h1>

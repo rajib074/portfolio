@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -10,31 +11,36 @@ const Projects = () => {
               Prajects
             </h1>
           </div>
-          <div class="flex flex-wrap -m-4 h-96">
-            <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
-              <div class="h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
+          <div class="flex flex-wrap m-4">
+            <div class=" p-4 xl:w-1/3 text-center h-96 md:w-1/2 w-full">
+              <div class="h-full p-6 border border-slate-300 rounded-lg flex flex-col relative overflow-hidden">
                 <img
                   src="https://i.ibb.co/VqwxVcD/screenshot-vitacreact-web-app-2022-06-09-20-55-00.png"
                   alt="praject"
                 />
               </div>
-            </div>
-            <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
-              <div class="h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
+              <Link className="p-5  m-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500" to="/project">View Ditals</Link>            </div>
+            <div class="p-4 xl:w-1/3 text-center h-96 md:w-1/2 w-full">
+              <div class="h-full p-6 border border-slate-300 rounded-lg flex flex-col relative overflow-hidden">
                 <img
                   src="https://i.ibb.co/j4L34cm/1-3.png"
                   alt="praject"
                 />
               </div>
+              <Link className="p-5  m-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500" to="/project">View Ditals</Link>            </div>
+            <div>
+              
             </div>
-            <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
-              <div class="h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
+            <div class="p-4 xl:w-1/3 text-center h-96 md:w-1/2 w-full">
+              <div class="h-full border border-slate-300 p-6 rounded-lg flex flex-col relative overflow-hidden">
                 <img
                   src="https://i.ibb.co/XxDZ6cp/1-2.png"
                   alt="praject"
                 />
               </div>
+              <Link className="p-5  m-5 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500" to="/project">View Ditals</Link>
             </div>
+            
           </div>
         </div>
       </section>

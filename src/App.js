@@ -1,19 +1,25 @@
-import ContactUs from './Component/ContactUs';
-import Footer from './Component/Footer';
-import Header from './Component/Header';
-import Navbar from './Component/Navbar';
-import Projects from './Component/Projects';
-import Testimonials from './Component/Testimonials';
+import { Route, Routes } from "react-router-dom";
+import About from "./Component/About";
+import Home from "./Component/Home";
+import Navbar from "./Component/Navbar";
+import Project from "./Component/Project";
 
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="project" element={<Project />} />
+      </Routes>
+
+      {/* <Navbar></Navbar>
       <Header></Header>
       <Projects></Projects>
       <Testimonials></Testimonials>
       <ContactUs></ContactUs>
-      <Footer></Footer>
+      <Footer></Footer> */}
 
     </div>
   );
