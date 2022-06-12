@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
-      <footer class="footer p-10 bg-neutral text-neutral-content">
+      <footer className="footer p-10 bg-neutral text-neutral-content">
         <div className="m-auto">
-          <span class="footer-title">Skils</span>
-          <a class="link link-hover">HTML</a>
-          <a class="link link-hover">CSS</a>
-          <a class="link link-hover">JavaScript</a>
-          <a class="link link-hover">React</a>
+          <span className="footer-title">Skils</span>
+          <a className="link link-hover">HTML</a>
+          <a className="link link-hover">CSS</a>
+          <a className="link link-hover">JavaScript</a>
+          <a className="link link-hover">React</a>
         </div>
         <div className="m-auto">
-          <span class="footer-title">Menu</span>
+          <span className="footer-title">Menu</span>
           <Link to="/">Home</Link>
           <a href="https://drive.google.com/file/d/1QJHEcEibx5WgWeNbFIK0DJlqtyCIPbDG/view?usp=sharing">
             Resume
@@ -23,24 +23,24 @@ const Footer = () => {
           <Link to="/about">About</Link>
         </div>
         <div className="m-auto">
-          <span class="footer-title">Social</span>
+          <span className="footer-title">Social</span>
           <a href="https://github.com/rajib074"></a>
-          <a href="https://github.com/rajib074" class="link link-hover">
+          <a href="https://github.com/rajib074" className="link link-hover">
             Github
           </a>
           <a
             href="https://www.linkedin.com/in/rajibsarkar074/"
-            class="link link-hover"
+            className="link link-hover"
           >
             Linked In
           </a>
-          <a href="https://www.facebook.com/rajib074" class="link link-hover">
+          <a href="https://www.facebook.com/rajib074" className="link link-hover">
             Facebook
           </a>
-          <a href="https://twitter.com/RajibRajib074" class="link link-hover">
+          <a href="https://twitter.com/RajibRajib074" className="link link-hover">
             Twitter
           </a>
-          <a class="link link-hover">Google</a>
+          <a className="link link-hover">Google</a>
         </div>
       </footer>
     </div>
