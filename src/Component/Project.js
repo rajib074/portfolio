@@ -5,14 +5,13 @@ const Project = () => {
   return (
     <div>
       <section class="text-gray-600 body-font p-5 overflow-hidden">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-4 mx-auto">
           <div class="flex flex-col text-center w-full mb-10">
-            <h1 class="sm:text-5xl text-3xl font-medium title-font">
-              Prajects
-            </h1>
+           
           </div>
           <div class="flex flex-wrap m-4">
             <div class=" p-4 xl:w-1/3 text-center md:w-1/2 w-full">
+              <a class="btn btn-info mb-3" href="https://vitacreact.web.app/">Live Link</a>
               <div className="h-[550px] overflow-hidden w-full">
                 <div class="h-full p-6 border border-slate-300 rounded-lg flex flex-col relative overflow-hidden">
                   <img
@@ -31,6 +30,8 @@ const Project = () => {
               </div>
             </div>
             <div class=" p-4 xl:w-1/3 text-center md:w-1/2 w-full">
+            <a class="btn btn-info mb-3" href="https://teacher-3404a.web.app/">Live Link</a>
+
               <div className="h-[550px] overflow-hidden w-full">
                 <div class="h-full p-6 border border-slate-300 rounded-lg flex flex-col relative overflow-hidden">
                   <img
@@ -49,6 +50,8 @@ const Project = () => {
               </div>
             </div>
             <div class=" p-4 xl:w-1/3 text-center md:w-1/2 w-full">
+            <a class="btn btn-info mb-3" href="https://rajib-enterprice.web.app/">Live Link</a>
+
               <div className="h-[550px] overflow-hidden w-full">
                 <div class="h-full p-6 border border-slate-300 rounded-lg flex flex-col relative overflow-hidden">
                   <img
