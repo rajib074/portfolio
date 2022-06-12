@@ -1,6 +1,6 @@
 import React from "react";
 
-const Independent = () => {
+const Manufacturer = () => {
   return (
     <div>
       <section class="text-gray-600 body-font">
@@ -9,23 +9,23 @@ const Independent = () => {
             <div class="p-4 text-center lg:w-1/3">
               <h1 className="m-3 text-3xl">Home Page</h1>
               <div className="h-[550px] overflow-hidden">
-                <img src="https://i.ibb.co/f024Bnk/screenshot-teacher-3404a-web-app-2022-06-12-10-24-14.png" alt="car!" />
+                <img src="https://i.ibb.co/RpgnQ8Z/vitic-1.png" alt="car!" />
               </div>
             </div>
             <div class="p-4 text-center lg:w-1/3">
               <h1 className="m-3 text-3xl">LogIn Page</h1>
 
               <div className="h-[550px] overflow-hidden">
-                <img src="https://i.ibb.co/tb8x98K/screenshot-teacher-3404a-web-app-2022-06-12-10-26-30.png" alt="car!" />
+                <img src="https://i.ibb.co/Lg3vKXv/vitic-4.png" alt="car!" />
               </div>
             </div>
             <div class="p-4 text-center lg:w-1/3">
-              <h1 className="m-3 text-3xl">Blog page</h1>
+              <h1 className="m-3 text-3xl">Dashbord</h1>
 
               <div className="h-[550px] overflow-hidden">
                 <img
                   className=""
-                  src="https://i.ibb.co/sRg3803/screenshot-teacher-3404a-web-app-2022-06-12-10-25-57.pngg"
+                  src="https://i.ibb.co/xCcmCQH/vitic-2.png"
                   alt="car!"
                 />
               </div>
@@ -37,4 +37,4 @@ const Independent = () => {
   );
 };
 
-export default Independent;
+export default Manufacturer;

@@ -19,10 +19,9 @@ const About = () => {
                 carefully crafted code and user-centric design.
               </p>
               <button class="btn btn-primary">
-                <span>
-                  <i class="fa fa-user"></i>more about me
-                </span>
+                more
               </button>
+              
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ const Project = () => {
               <div className="m-8">
                 <Link
                   className="p-5 rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"
-                  to="/project"
+                  to="/manufacturer"
                 >
                   View Ditals
                 </Link>
@@ -60,7 +60,7 @@ const Project = () => {
               <div className="m-8">
                 <Link
                   className="p-5 rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"
-                  to="/project"
+                  to="/warehouse"
                 >
                   View Ditals
                 </Link>

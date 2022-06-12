@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <div>
-    <section class="text-gray-600 body-font p-5 overflow-hidden">
-      <div class="container px-5 py-24 mx-auto">
+    <section class="text-gray-600 bg-cyan-200 body-font p-5 overflow-hidden">
+      <div class="container px-5 py-8 mx-auto">
         <div class="flex flex-col text-center w-full mb-10">
           <h1 class="sm:text-5xl text-3xl font-medium title-font">
             Prajects
