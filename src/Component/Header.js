@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+    <div className="bg-gradient-to-r from-green-400 to-blue-500 ">
       <div className="hero min-h-screen">
         <div className="hero-content flex-col m-auto lg:flex-row">
           <img
